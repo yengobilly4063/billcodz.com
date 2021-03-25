@@ -7,8 +7,12 @@
 
 # testing
 /coverage
-
-.idea/
+/.idea
+.idea/.gitignore
+.idea/billcodz.iml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/inspectionProfiles
 
 # production
 /build
