@@ -1,66 +1,49 @@
+@import "css/home.css";
+@import "css/header.css";
+.App{
+    background-image: url("components/match.jpg");
+    background-repeat: no-repeat;
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: blur(0.5px);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     letter-spacing: 2px;
-    font-family: Roboto;
+    font-family: 'Noto Sans', sans-serif;
     /*color: #ffffff;*/
     font-size: 16px;
 }
 
 body {
     /*background-color: #0B0C10;*/
+    /*background-color: #1F2833;*/
     color: #45A29E;
 }
 
-header {
-    background-color: #0B0C10;
-    /*height: 50px;*/
-}
-
-header .btn {
-    display: inline-block;
-    /*border: 1px solid #45A29E;*/
-    padding: 10px 20px !important;
-    margin: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 15px;
-    height: 44px;
-    width: 114px;
-    color: #66FCF1;
-    background-color: #0B0C10;
-    text-transform: uppercase;
-}
 
 
-header .btn:hover {
-    border: 1px dotted #C5C6C7;
-    color: #66FCF1;
-    box-shadow: 0px 0px 15px 7px #45A29E;
-}
-
-header .btn:last-child {
-    margin-right: 150px;
-}
-
-.nav-bar-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: inherit;
+/*Body*/
+.body_content{
+    /*height: calc(100vh - 90px);*/
 }
 
 
 .footer {
-    position: absolute;
+    /*position: absolute;*/
     /*text-align: center;*/
     bottom: 0;
     width: 100%;
     height: 42px;
     /*border: 1px solid blue;*/
 }
+
 .footer p {
     text-align: center;
     vertical-align: middle;
@@ -70,31 +53,4 @@ header .btn:last-child {
 }
 
 
-/*RESPONSIVE*/
-@media screen and (max-width: 800px) {
-    /*HEADER*/
-    header .nav-bar-left {
-        display: none;
-    }
 
-    header .nav-bar-right {
-        display: flex;
-        flex-direction: column;
-        /*border: 1px solid red;*/
-    }
-    header .nav-bar-right .btn {
-        display: block;
-        width: 100vw;
-        border-bottom: 1px solid #45A29E;
-        vertical-align: middle;
-        text-align: center;
-        margin: 0;
-        margin-bottom: 1px;
-        border-radius: unset;
-    }
-    .navbar-expand-md{
-        margin: 0;
-        padding: 0;
-    }
-
-}

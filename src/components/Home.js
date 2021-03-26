@@ -1,11 +1,13 @@
 import React from "react";
-import profile from "../assets/p1.jpg"
 
 const Home = () => {
-  return(
+  return (
     <>
-      <div className="container-fluid">
-        <h1>Home</h1>
+      <div className="home" style={{backgroundImage: `url(require("/match.jpg"))`}}>
+        <div className="container inner_home">
+          <h1>Hi! My name is Bill Yengo</h1>
+          <h4>Under construction</h4>
+        </div>
       </div>
 
     </>
