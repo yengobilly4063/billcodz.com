@@ -17,11 +17,11 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navBar">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item .b_btn">
-              <Link className="nav-link .b_btn" to="/about">About</Link>
+              <Link className="nav-link .b_btn" to="/">Home</Link>
             </li>
-            <li className="nav-item .b_btn">
-              <Link className="nav-link" to="/skills">Skills</Link>
-            </li>
+            {/*<li className="nav-item .b_btn">*/}
+            {/*  <Link className="nav-link .b_btn" to="/about">About</Link>*/}
+            {/*</li>*/}
             <li className="nav-item .b_btn">
               <Link className="nav-link" to="/blog">Blog</Link>
             </li>

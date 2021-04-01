@@ -1,0 +1,21 @@
+.error {
+    background-color: deeppink;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 10px 5px;
+}
+.mg_top{
+    min-height: 500px;
+    max-width: 500px;
+}
+.container{
+    /*border: 1px solid red;*/
+}
+
+form label{
+    font-size: 16px;
+}
+
+.alert-success{
+    padding: 10px 5px;
+}
